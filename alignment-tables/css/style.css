@@ -1,0 +1,229 @@
+/* Project CSS */
+
+/**
+ *  Global styles
+ *  Header
+ *  Main content
+ *      Table
+ *  Footer
+ *
+ *  Color palette
+ *  Fonts
+ */
+
+/* Global styles */
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #f8f8f8;
+    font-family: "Open Sans Condensed", sans-serif;
+}
+
+header,
+main,
+footer {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 2rem 1.5rem 1.5rem;
+}
+
+/**
+ * Setting these divs to expand to full-width for layout purposes
+ * whilst their content max-width is limited to 1280px
+ */
+
+.header,
+.footer {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    font-size: 20px;
+}
+
+.description {
+    font-style: italic;
+}
+
+.hidden {
+    display: none;
+}
+
+.right {
+    float: right;
+}
+
+a { 
+    color: #29506d;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+/* Header */
+
+header {
+    color: #cacad0;
+}
+
+header h1 {
+    margin: 0;
+    font-weight: 300;
+    font-size: 3rem;
+}
+
+header p {
+    color: white;
+}
+
+.header {
+    background: #37556b;
+}
+
+/* Main content */
+
+p.more-info {
+    background: #f8f8f8;
+    padding: .25rem;
+    font-size: 16px;
+}
+
+/* Table */
+
+table {
+    width: 100%;
+    background: #e0e2e3;
+    color: #062b47;
+    font-size: 18px;
+    /* word-break: break-all; */    /* If you want the table to be responsive uncomment this line */
+                                    /* It will break words (might not be what you want) */
+}
+
+table p {
+    font-size: 18px;
+    margin: 0;
+    padding: 0 5px;
+    vertical-align: bottom;
+}
+
+table,
+tr,
+th,
+td {
+    border-collapse: collapse;    
+}
+
+thead th {
+    background: #1e4057;
+    color: #f8f8f8;
+}
+
+td,
+th {
+    border-bottom: 1px solid #f8f8f8;
+    border-right: 1px solid #f8f8f8;
+    padding: 0;
+    text-align: left;
+    vertical-align: text-top;
+}
+
+td:last-child,
+th:last-child {
+    border-right: none;
+}
+
+td:hover {
+    background: #f8f8f8;
+}
+
+/* Alternate color for table rows */
+
+tr:nth-child(odd) {
+    background: #c8d3da;
+}
+
+td:first-child {
+    width: 150px;
+}
+
+.orange {
+    border-left: 5px solid #cc5500;
+}
+
+.green {
+    border-left: 5px solid #090;
+}
+
+/* Footer */
+
+footer {
+    color: #c1c5c8;
+}
+
+.footer {
+    background: #37556b; 
+}
+
+/* Color palette */
+
+/* As HEX codes */
+
+.color-primary-0 { color: #343477; } /* Main Primary color */
+.color-primary-1 { color: #cacad0; } 
+.color-primary-2 { color: #7070a0; }
+.color-primary-3 { color: #0d0d4e; }
+.color-primary-4 { color: #010124; }
+
+.color-secondary-1-0 { color: #29506d; } /* Main Secondary color (1) */
+.color-secondary-1-1 { color: #c1c5c8; }
+.color-secondary-1-2 { color: #637e93; }
+.color-secondary-1-3 { color: #062b47; }
+.color-secondary-1-4 { color: #001321; }
+
+.color-secondary-2-0 { color: #4b2d73; } /* Main Secondary color (2) */
+.color-secondary-2-1 { color: #c9c6cd; }
+.color-secondary-2-2 { color: #7F699b; }
+.color-secondary-2-3 { color: #25084b; }
+.color-secondary-2-4 { color: #0f0023; }
+
+/* As RGBa codes */
+
+/* .rgba-primary-0 { color: rgba( 52, 52,119,1); } */ /* Main Primary color */
+/* .rgba-primary-1 { color: rgba(202,202,208,1); } */
+/* .rgba-primary-2 { color: rgba(112,112,160,1); } */
+/* .rgba-primary-3 { color: rgba( 13, 13, 78,1); } */
+/* .rgba-primary-4 { color: rgba(  1,  1, 36,1); } */
+
+/* .rgba-secondary-1-0 { color: rgba( 41, 80,109,1); } */ /* Main Secondary color (1) */
+/* .rgba-secondary-1-1 { color: rgba(193,197,200,1); } */
+/* .rgba-secondary-1-2 { color: rgba( 99,126,147,1); } */
+/* .rgba-secondary-1-3 { color: rgba(  6, 43, 71,1); } */
+/* .rgba-secondary-1-4 { color: rgba(  0, 19, 33,1); } */
+
+/* .rgba-secondary-2-0 { color: rgba( 75, 45,115,1); } */ /* Main Secondary color (2) */
+/* .rgba-secondary-2-1 { color: rgba(201,198,205,1); } */
+/* .rgba-secondary-2-2 { color: rgba(127,105,155,1); } */
+/* .rgba-secondary-2-3 { color: rgba( 37,  8, 75,1); } */
+/* .rgba-secondary-2-4 { color: rgba( 15,  0, 35,1); } */
+
+/* Fonts */
+
+@font-face {
+    font-family: 'Open Sans Condensed';
+    src: url(../fonts/Open_Sans_Condensed/OpenSans-CondLight.ttf);
+}
+
+@font-face {
+    font-family: 'Open Sans Condensed';
+    src: url(../fonts/Open_Sans_Condensed/OpenSans-CondLightItalic.ttf);
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Open Sans Condensed';
+    src: url(../fonts/Open_Sans_Condensed/OpenSans-CondBold.ttf);
+    font-weight: 700;
+}
+
