@@ -1,5 +1,5 @@
 # Visualizing Collation Results
-### Visualization and interactive manipulation of the collation results from [CollateX](collatex.net) with a jupyter notebook.
+Visualization and interactive manipulation of the collation results from [CollateX](collatex.net) with a jupyter notebook.
 
 
 ## Content
@@ -12,7 +12,7 @@ This repository contains
 The files are provided as examples of collation results to use with the notebook, and do not represent the final collation of Calpurnius. One file has consecutive matching tokens joint into segments (`calpurnius-collation-joint-BCMNPH.json`), and the other file has separated tokens (`calpurnius-collation-sep-BCMNPH.json`).
 
 ## Jupyter Notebook
-The notebook is intended for exploring the collation of Calpurnius Flaccus, with interactive [widgets](http://ipywidgets.readthedocs.io/en/latest/index.html).
+The notebook `interactive-collation.ipynb` is intended for exploring the collation of Calpurnius Flaccus, with interactive [widgets](http://ipywidgets.readthedocs.io/en/latest/index.html).
 It allows users to:
  1. **Modify the collation**: move tokens, add or delete rows, add or del notes, and save the new JSON results
  2. **Filter the collation**: select readings from the collation in order to find unique readings of a witness, select a group of witnesses which agree together
