@@ -36,7 +36,7 @@ When the notebook is open, select `Cell > Run All`. You are now ready to explore
 If you wish to use the notebook for your own collation, add your JSON file in the `json-collations` folder. Then in the notebook, change the code of the cell `IMPORT DATA > Collation import`:
 
 1. update the `path` variable with your own JSON file
-2. change the `base_text` variable to chose a base text from your own witnesses (or comment it out if you do not want to set a base text)
+2. change the `base_text` variable to chose a base text from your own witnesses (or leave it empty if you do not want to set a base text)
 3. run the modified cell again, to upload your collation results
 
 ## HTML alignment tables
