@@ -40,7 +40,7 @@ If you wish to use the notebook for your own collation, add your JSON file in th
 3. run the modified cell again, to upload your collation results
 
 ## HTML alignment tables
-Preview of a collation table displayed in HTML [here](https://htmlpreview.github.io/?https://github.com/enury/collation-viz/blob/master/alignment-tables/example.html).
+Preview of a collation table displayed in HTML [here](collation-viz/alignment-tables/example.html).
 
 - hidden notes can be displayed by clicking on (i) symbols
 - hidden  location (page/folio and line numbers) can be displayed for readings from the ID column
