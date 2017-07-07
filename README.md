@@ -25,6 +25,8 @@ the page or folio and line where it appears in the witness, a link to the digita
 #### How to use the notebook?
 In order to use the juypter notebook, you should have python and jupyter installed. If this is not the case, follow the instructions given in the jupyter documentation: <http://jupyter.readthedocs.io/en/latest/install.html>.
 
+Install the widgets by following the instructions here: <http://ipywidgets.readthedocs.io/en/latest/user_install.html>
+
 Download the repository `collation-viz`. Unzip and open a command line window from the newly created folder, or [navigate](http://www.wikihow.com/Change-Directories-in-Command-Prompt) to the folder. Type the following instruction to open the notebook in a browser webpage:
 ```
 jupyter notebook interactive-collation.ipynb
