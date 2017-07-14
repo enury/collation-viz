@@ -1,6 +1,6 @@
 # Visualizing Collation Results
-Visualization and interactive manipulation of the collation results from [CollateX](http://collatex.net/) with a jupyter notebook.
-[![Binder](http://mybinder.org/badge.svg)](http://mybinder.org:/repo/enury/collation-viz)
+Visualization and interactive manipulation of the collation results from [CollateX](https://collatex.net/) with a jupyter notebook.
+[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org:/repo/enury/collation-viz)
 
 ## Content
 This repository contains:
