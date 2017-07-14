@@ -12,7 +12,7 @@ This repository contains:
 The files are provided as examples of collation results to use with the notebook, and do not represent the final collation of Calpurnius. One file has consecutive matching tokens joint into segments (`calpurnius-collation-joint-BCMNPH.json`), and the other file has separated tokens (`calpurnius-collation-sep-BCMNPH.json`).
 
 ## Jupyter Notebook
-The notebook `interactive-collation.ipynb` is intended for exploring the collation of Calpurnius Flaccus, with interactive [widgets](http://ipywidgets.readthedocs.io/en/latest/index.html).
+The notebook `interactive-collation.ipynb` is intended for exploring the collation of Calpurnius Flaccus, with interactive [widgets](https://ipywidgets.readthedocs.io/en/latest/index.html).
 It allows users to:
  1. **Modify the collation**: move tokens, add or delete rows, add or del notes, and save the new JSON results
  2. **Filter the collation**: select readings from the collation in order to find unique readings of a witness, select a group of witnesses which agree together
@@ -23,11 +23,11 @@ It allows users to:
 the page or folio and line where it appears in the witness, a link to the digital image of the page when available, etc.
 
 #### How to use the notebook?
-In order to use the juypter notebook, you should have python and jupyter installed. If this is not the case, follow the instructions given in the jupyter documentation: <http://jupyter.readthedocs.io/en/latest/install.html>.
+In order to use the juypter notebook, you should have python and jupyter installed. If this is not the case, follow the instructions given in the jupyter documentation: <https://jupyter.readthedocs.io/en/latest/install.html>.
 
-Install the widgets by following the instructions here: <http://ipywidgets.readthedocs.io/en/latest/user_install.html>
+Install the widgets by following the instructions here: <https://ipywidgets.readthedocs.io/en/latest/user_install.html>
 
-Download the repository `collation-viz`. Unzip and open a command line window from the newly created folder, or [navigate](http://www.wikihow.com/Change-Directories-in-Command-Prompt) to the folder. Type the following instruction to open the notebook in a browser webpage:
+Download the repository `collation-viz`. Unzip and open a command line window from the newly created folder, or [navigate](https://www.wikihow.com/Change-Directories-in-Command-Prompt) to the folder. Type the following instruction to open the notebook in a browser webpage:
 ```
 jupyter notebook interactive-collation.ipynb
 ```
