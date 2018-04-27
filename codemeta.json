@@ -1,0 +1,15 @@
+{
+	"@context": "https://doi.org/10.5063/schema/codemeta-2.0",
+	"@type": "SoftwareSourceCode",
+	"author": [{
+		"@type": "Person",
+		"givenName": "Elisa",
+		"familyName": "Nury",
+		"@id": "https://orcid.org/0000-0003-4688-6567"
+	}],
+	"name": "PyCoviz: Interactive Interface for Collation Visualisation",
+	"softwareVersion": "1.0.0",
+	"identifier": "https://doi.org/10.5281/zenodo.1186178",
+	"datePublished": "2018-02-28",
+	"codeRepository": "https://github.com/enury/collation-viz"
+}
