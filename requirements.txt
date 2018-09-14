@@ -41,7 +41,7 @@ conda-env=2.6.0=h36134e3_1
 conda-verify=2.0.0=py36h065de53_0
 console_shortcut=0.1.1=h6bb2dd7_3
 contextlib2=0.5.5=py36he5d52c0_0
-cryptography=2.2.2=py36hfa6e2cd_0
+cryptography=2.3
 curl=7.60.0=h7602738_0
 cycler=0.10.0=py36h009560c_0
 cython=0.28.2=py36hfa6e2cd_0
@@ -161,7 +161,6 @@ py=1.5.3=py36_0
 pycodestyle=2.4.0=py36_0
 pycosat=0.6.3=py36h413d8a4_0
 pycparser=2.18=py36hd053e01_1
-pycrypto=2.6.1=py36hfa6e2cd_8
 pycurl=7.43.0.1=py36h74b6da3_0
 pyflakes=1.6.0=py36h0b975d6_0
 pygments=2.2.0=py36hb010967_0
@@ -191,7 +190,7 @@ qtawesome=0.4.4=py36h5aa48f6_0
 qtconsole=4.3.1=py36h99a29a9_0
 qtpy=1.4.1=py36_0
 requests=2.18.4=py36h4371aae_1
-rope=0.10.7=py36had63a69_0
+rope=0.11.0
 ruamel_yaml=0.15.35=py36hfa6e2cd_1
 scikit-image=0.13.1=py36hfa6e2cd_1
 scikit-learn=0.19.1=py36h53aea1b_0
