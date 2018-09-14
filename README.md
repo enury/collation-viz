@@ -1,4 +1,6 @@
 # Visualizing Collation Results
+[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/enury/collation-viz/master?filepath=interactive-collation.ipynb)
+
 Visualization and interactive manipulation of the collation results from [CollateX](https://collatex.net/) with a jupyter notebook.
 
 ## Content
