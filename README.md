@@ -2,7 +2,7 @@
 
 [![DOI](https://zenodo.org/badge/66955399.svg)](https://zenodo.org/badge/latestdoi/66955399)
 
-[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/enury/collation-viz/master?filepath=interactive-collation.ipynb)
+[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/enury/collation-viz/master?filepath=apps/interactive-collation.ipynb)
 
 Visualization and interactive manipulation of the collation results from [CollateX](https://collatex.net/) with a jupyter notebook.
 
