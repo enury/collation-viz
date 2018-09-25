@@ -9,7 +9,7 @@ Visualization and interactive manipulation of the collation results from [Collat
 ## Content
 This repository contains:
 - **collation results** of the *Declamations* of Calpurnius Flaccus in JSON format
-- **jupyter notebook** where it is possible to modify, search or filter the collation, and save the new results
+- **jupyter notebooks** where it is possible to modify, search or filter the collation, and save the new results. The pycoviz-appmode notebook is meant to be viewed as an app in browser when launching [binder](https://mybinder.org/)
 - **HTML alignment tables** to visualize not only variant readings, but also notes, links to digital facsimile, etc.
 
 ## Collation results
