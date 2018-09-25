@@ -33,7 +33,7 @@ Install the widgets by following the instructions here: <https://ipywidgets.read
 
 Download the repository `collation-viz`. Unzip and open a command line window from the newly created folder, or [navigate](https://www.wikihow.com/Change-Directories-in-Command-Prompt) to the folder. Type the following instruction to open the notebook in a browser webpage:
 ```
-jupyter notebook interactive-collation.ipynb
+jupyter notebook pycoviz.ipynb
 ```
 
 When the notebook is open, select `Cell > Run All`. You are now ready to explore the collation of Calpurnius Flaccus!
