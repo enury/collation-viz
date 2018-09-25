@@ -1,4 +1,4 @@
-# Visualizing Collation Results
+# PyCoviz: Visualizing Collation Results
 
 [![DOI](https://zenodo.org/badge/66955399.svg)](https://zenodo.org/badge/latestdoi/66955399)
 
